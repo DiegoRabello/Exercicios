@@ -1,0 +1,15 @@
+
+.nav li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+.nav a {
+    
+}
+@media (max-width:768px) {
+    .nav li {
+        display: flex;
+        
+    }
+}

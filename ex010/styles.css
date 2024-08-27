@@ -1,0 +1,13 @@
+.espacamento-gap li{
+    display: block;
+ /* Ou use display: grid; para o Grid Layout */
+  list-style: none; /* Remove marcadores de lista */
+  padding: 0; /* Remove padding padrão */
+  margin-bottom: 10px; /* Adiciona espaçamento entre os itens */
+}
+@media (min-width: 1024px) {
+    .espacamento-gap li{
+        margin-bottom: 100px;
+    }
+}
+    

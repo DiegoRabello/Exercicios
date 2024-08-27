@@ -1,0 +1,8 @@
+.fa-shield-alt {
+  color: #2cc76a;
+}
+@media (min-width: 1024px) {
+    .fa-shield-alt {
+        font-size: 50px;
+    }
+}

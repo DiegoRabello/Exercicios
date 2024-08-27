@@ -1,0 +1,10 @@
+.fundo {
+    background-color: blue;
+    height: 50vh;
+    width: 400px;
+}
+@media (max-width: 600px) {
+    .fundo {
+        background-color: red;
+    }
+}

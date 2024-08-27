@@ -1,0 +1,20 @@
+
+
+body {
+    display: flex;
+}
+.coluna1 {
+    background-color: aquamarine;
+    height: 400px;
+    width: 50%;
+}
+.coluna2 {
+    background-color: brown;
+    height: 400px;
+    width: 50%;
+}
+@media (max-width:768px) {
+    body {
+        flex-direction: column;
+    }
+}

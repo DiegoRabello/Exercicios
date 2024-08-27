@@ -1,0 +1,104 @@
+/* preços */
+
+.pricing-container {
+  padding-bottom: 5em;
+  text-align: center;
+}
+
+.pricing-container h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.pricing-container p {
+  font-size: 20px;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 90%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plan {
+  
+  max-width: 275px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.plan ul {
+  padding: 0;
+}
+
+.plan li {
+  list-style: none;
+  height: 50px;
+  line-height: 50px;
+  background-color: #e8e9ea;
+  color: #333;
+}
+
+.plan .price {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #2cc76a;
+  color: #fff;
+  text-align: center;
+  line-height: 120px;
+  font-size: 18px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+}
+
+.plan .plan-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #202b34;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.plan .plan-btn {
+  background-color: #2cc76a;
+  color: #fff;
+  font-size: 24px;
+  height: 75px;
+  line-height: 75px;
+  cursor: pointer;
+}
+
+.plan .recommended {
+  background-color: #f45c57;
+}
+
+
+@media (max-width: 768px)  {
+    .plans-container {
+        flex: 1;
+        flex-basis: 1;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 769px) and (max-width : 1024px) {
+    .plans-container {
+        align-items: center;
+        flex: 1 1 ;
+    }
+}
+@media (min-width: 1024px)  {
+    .plans-container {
+        flex: 1 1 1;
+        align-items: center;
+    }
+
+}
