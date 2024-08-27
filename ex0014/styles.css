@@ -1,0 +1,20 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+@media (min-width: 768px)  {
+    .header {
+        height: 150px;        
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        height: 100px;        
+    }
+}

@@ -1,0 +1,14 @@
+.container {
+    background-color: blanchedalmond;
+    width: 50%;
+    height: 50VH;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 20PX;
+    }
+}
