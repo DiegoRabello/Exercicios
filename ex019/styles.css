@@ -1,0 +1,12 @@
+.container  {
+display: block; /* Display padrão para telas menores */
+    padding: 20px;
+    background-color: lightgray;
+    
+}   
+@media (max-width: 768px ) {
+    .container {
+       display: flex;
+      
+    }
+}
